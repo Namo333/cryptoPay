@@ -1,0 +1,43 @@
+/** @type {import('tailwindcss').Config} */
+module.exports = {
+  content: ["./src/**/*.{html,js,ts,jsx,tsx}"],
+  theme: {
+    extend: {
+      colors: {
+        "bg-dark": "var(--bg-dark)",
+        "bg-light": "var(--bg-light)",
+        "blue-12": "var(--blue-12)",
+        "blue-16": "var(--blue-16)",
+        "collection-1-main-text": "var(--collection-1-main-text)",
+        dark: "var(--dark)",
+        "dark-40": "var(--dark-40)",
+        "dark-80": "var(--dark-80)",
+        "dark-blue": "var(--dark-blue)",
+        "deep-blue": "var(--deep-blue)",
+        "light-dark": "var(--light-dark)",
+        white: "var(--white)",
+        "white-24": "var(--white-24)",
+        "white-5": "var(--white-5)",
+        "white-60": "var(--white-60)",
+        "white-80": "var(--white-80)",
+      },
+      fontFamily: {
+        "desktop-base-text": "var(--desktop-base-text-font-family)",
+        "desktop-button": "var(--desktop-button-font-family)",
+        "desktop-description": "var(--desktop-description-font-family)",
+        "desktop-h1-header": "var(--desktop-h1-header-font-family)",
+        "desktop-h2-header": "var(--desktop-h2-header-font-family)",
+        "desktop-h3-header": "var(--desktop-h3-header-font-family)",
+        "desktop-h4-header": "var(--desktop-h4-header-font-family)",
+        "mobile-base-text": "var(--mobile-base-text-font-family)",
+        "mobile-button": "var(--mobile-button-font-family)",
+        "mobile-description": "var(--mobile-description-font-family)",
+        "mobile-h1-header": "var(--mobile-h1-header-font-family)",
+        "mobile-h2-header": "var(--mobile-h2-header-font-family)",
+        "mobile-h3-header": "var(--mobile-h3-header-font-family)",
+        "mobile-h4-header": "var(--mobile-h4-header-font-family)",
+      },
+    },
+  },
+  plugins: [],
+};
