@@ -1,1 +1,0 @@
-export { LogosPythonOriginal } from "./LogosPythonOriginal";
