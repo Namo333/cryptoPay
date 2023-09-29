@@ -9,9 +9,9 @@ const App = () => (
     <div className="w-[1200px] relative">
       <Navbar />
       <Hero />
-      <main>
+      <section>
         <Slider />
-      </main>
+      </section>
     </div>
   </div>
 )

@@ -1,29 +1,25 @@
 import React from 'react';
-
 import Phone from '../icons/img_phone.svg';
 import Botsphoto from '../icons/photo-bots.svg';
 
 const Hero = () => (
-
     <section>
-        <div className="flex justify-between">
-            <div className="flex flex-col justify-center">
-                <h1 className='text-[#0d0d12] m-0 w-[692px] font-desktop-h1-header [font-style:var(--desktop-h1-header-font-style)] font-[number:var(--desktop-h1-header-font-weight)] tracking-[var(--desktop-h1-header-letter-spacing)] leading-[var(--desktop-h1-header-line-height)] text-[length:var(--desktop-h1-header-font-size)]'>Crypto payments for <span className="text-[#41a4df] font-desktop-h1-header [font-style:var(--desktop-h1-header-font-style)] font-[number:var(--desktop-h1-header-font-weight)] tracking-[var(--desktop-h1-header-letter-spacing)] leading-[var(--desktop-h1-header-line-height)] text-[length:var(--desktop-h1-header-font-size)]" >telegram bots</span></h1>
-                <p className='w-[370px] font-desktop-base-text font-[number:var(--desktop-base-text-font-weight)] text-dark text-[length:var(--desktop-base-text-font-size)] tracking-[var(--desktop-base-text-letter-spacing)] leading-[var(--desktop-base-text-line-height)] [font-style:var(--desktop-base-text-font-style)]'>Seamlessly accept crypto paymentsin your Telegram bots and services.</p>
-                <div className="pb-[56px]">
-                    <a className=" inline-block text-white px-[42px] py-[18px] bg-[#41A4DF] rounded-[900px]" href="">Get started</a>
+        <div className="flex flex-col md:flex-row justify-between">
+            <div className="flex flex-col justify-center items-center md:items-start">
+                <h1 className=' p-0 m-0 text-[80px] max-md:max-w-full max-md:text-[50px] font-[629] leading-[1.1em] text-black max-md:my-4 max-lg:my-8 text-center md:text-left'>Crypto payments for <span className="text-blue-500 ..." >telegram bots</span></h1>
+                <p className='text-black max-w-[320px] text-xl font-normal leading-[1.2em] md:my-2 lg:my-4 text-center md:text-left'>Seamlessly accept crypto payments in your Telegram bots and services.</p>
+                <div className="pb-4 md:pb-8">
+                    <a className="inline-block text-white px-8 py-4 bg-blue-500 rounded-full" href="">Get started</a>
                 </div>
-                <img className='w-[320px]' src={ Botsphoto } alt="" />
-                <p className='w-[395px] font-desktop-base-text font-[number:var(--desktop-base-text-font-weight)] text-dark text-[length:var(--desktop-base-text-font-size)] tracking-[var(--desktop-base-text-letter-spacing)] leading-[var(--desktop-base-text-line-height)] [font-style:var(--desktop-base-text-font-style)]'>Popular bots use Crypto Pay</p>
+                <img class='max-md:w-[300px] max-sm:w-[200px] max-xs:w-[100px] w-[300px]' src={ Botsphoto } alt="" />
 
+                <p className='md:my-2 lg:my-4 text-center md:text-left'>Popular bots use Crypto Pay</p>
             </div>
 
-            <div className="">
-                <img src={ Phone } alt="" />
+            <div className="flex justify-center my-4 md:my-0">
+                <img className='max-md:max-w-[90%]' src={ Phone } alt="" />
             </div>
         </div>
     </section>
-
 )
-
 export default Hero
