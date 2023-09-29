@@ -107,3 +107,8 @@ a{
 ul{
     list-style: none;
 }
+
+.shadow-custom{
+  box-shadow: 0 0 0 100vmax #0D0D12;
+  clip-path: inset(0 -100vmax);
+}

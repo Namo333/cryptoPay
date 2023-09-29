@@ -9,7 +9,7 @@ const App = () => (
     <div className="w-[1200px] relative">
       <Navbar />
       <Hero />
-      <section>
+      <section className="">
         <Slider />
       </section>
     </div>
