@@ -1,19 +1,26 @@
 import React from "react";
-// import { Btn } from "./components/Btn";
-// import { Tag } from "./components/tag";
 
-import { Navbar, Hero, Slider } from "./components";
+import { Navbar, Hero, Slider, Container } from "./components";
 
 const App = () => (
-  <div className="flex flex-row justify-center w-full">
-    <div className="w-[1200px] relative">
-      <Navbar />
-      <Hero />
-      <section className="">
+  <main>
+    <Container>
+      <div className="">
+        <Navbar />
+        <Hero />
+      </div>
+    </Container>
+    <div className="bg-[#232328] mt-[150px]">
+      <Container>
         <Slider />
-      </section>
+      </Container>
     </div>
-  </div>
+
+    <Container>
+      
+    </Container>
+
+  </main>
 )
 
 export default App;
