@@ -20,7 +20,7 @@ const App = () => (
       <div className="flex flex-col gap-[20px]">
         <Infomer />
         <div className="flex gap-[20px]">
-          <div className="w-1/3 flex flex-col gap-[20px]">
+          <div className="w-1/2 flex flex-col gap-[20px]">
             <InfoTrio />
             <InfotrioDown />
           </div>
