@@ -1,6 +1,6 @@
 import React from "react";
 
-import { Navbar, Hero, Slider, Container, Infomer, InfoTrio } from "./components";
+import { Navbar, Hero, Slider, Container, Infomer, InfoTrio, InfotrioDown, InfotrioRight, IndoDwoRight, InfoDwoLeft } from "./components";
 
 const App = () => (
   <main>
@@ -17,8 +17,26 @@ const App = () => (
     </div>
 
     <Container>
-      <Infomer />
-      <InfoTrio />
+      <div className="flex flex-col gap-[20px]">
+        <Infomer />
+        <div className="flex gap-[20px]">
+          <div className="w-1/3 flex flex-col gap-[20px]">
+            <InfoTrio />
+            <InfotrioDown />
+          </div>
+          <div className="w-2/3 h-full">
+            <InfotrioRight />
+          </div>
+        </div>
+        <div className="flex gap-[20px]">
+          <div className="w-2/3">
+            <InfoDwoLeft />
+          </div>
+          <div className="w-1/3">
+            <IndoDwoRight />
+          </div>
+        </div>
+      </div>
     </Container>
 
   </main>
