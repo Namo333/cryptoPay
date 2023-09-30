@@ -41,7 +41,7 @@ const slides = [
                 index === activeSlide ? (
                     <div className="flex flex-col lg:flex-row items-center justify-center p-5" key={index}>
                     <div className="mb-3 lg:mb-0 lg:pr-[120px]">
-                        <img src={slide.image} alt={slide.title} className="max-w-2xl w-full h-auto sm:max-w-2xl" />
+                        <img src={slide.image} alt={slide.title} className=" max-xl:max-w-[100%]" />
                     </div>
                     <div>
                         <h2 className="text-[56px] max-lg:text-[30px] text-white text-primary mb-8 font-[629] tracking-[-0.03em] leading-[1.1em]">

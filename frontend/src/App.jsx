@@ -1,6 +1,6 @@
 import React from "react";
 
-import { Navbar, Hero, Slider, Container } from "./components";
+import { Navbar, Hero, Slider, Container, Infomer, InfoTrio } from "./components";
 
 const App = () => (
   <main>
@@ -17,7 +17,8 @@ const App = () => (
     </div>
 
     <Container>
-      
+      <Infomer />
+      <InfoTrio />
     </Container>
 
   </main>
