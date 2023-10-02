@@ -19,20 +19,20 @@ const App = () => (
     <Container>
       <div className="flex flex-col gap-[20px]">
         <Infomer />
-        <div className="flex gap-[20px]">
-          <div className="w-1/2 flex flex-col gap-[20px]">
+        <div className="flex gap-[20px] ">
+          <div className=" w-5/12 flex flex-col gap-[20px]">
             <InfoTrio />
             <InfotrioDown />
           </div>
-          <div className="w-2/3 h-full">
+          <div className="">
             <InfotrioRight />
           </div>
         </div>
-        <div className="flex gap-[20px]">
-          <div className="w-2/3">
+        <div className="flex  gap-[20px]">
+          <div className="">
             <InfoDwoLeft />
           </div>
-          <div className="w-1/3">
+          <div className="">
             <IndoDwoRight />
           </div>
         </div>

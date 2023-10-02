@@ -3,7 +3,7 @@ import React from 'react';
  import Back from '../icons/BG.svg';
 
 const InfotrioRight = () => (
-    <main>
+    <main className='max-w-[692px]'>
         <section className='bg-[#F7F9FB] rounded-[40px] flex px-[56px] py-[42px] flex-wrap h-748'>
             <div className="  w-full h-full  rounded-[20px] flex flex-col px-[72px] py-[47px] gap-[5px]"
                 style={{ 
