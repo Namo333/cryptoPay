@@ -9,6 +9,10 @@ import InfotrioRight from "./infotrioRight";
 import InfoDwoLeft from "./infoDwoLeft";
 import IndoDwoRight from "./indoDwoRight";
 
+import NumSection from "./numSection";
+import NumSectiomSecond from "./numSectiomSecond";
+import NumSectiomThree from "./NumSectiomThree";
+
 export {
     Navbar,
     Hero,
@@ -20,4 +24,7 @@ export {
     InfotrioRight,
     InfoDwoLeft,
     IndoDwoRight,
+    NumSection,
+    NumSectiomSecond,
+    NumSectiomThree,
 }

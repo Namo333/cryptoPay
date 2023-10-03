@@ -9,7 +9,7 @@ import Medal from '../icons/medal.svg'
 const InfoDwoLeft = () => (
     <main>
         <section className='bg-[#F7F9FB] rounded-[40px] flex px-[56px]  flex-wrap'>
-            <div className="w-[70%] h-[290px] m-auto flex flex-col px-[30px] py-[47px]"
+            <div className="w-[80%] h-[290px] m-auto flex flex-col px-[30px] py-[47px]"
                 style={{ 
                     backgroundImage: `url(${Bodyphone})`, 
                     backgroundSize: 'cover', 

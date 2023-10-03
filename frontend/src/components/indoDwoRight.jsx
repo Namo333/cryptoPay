@@ -3,7 +3,7 @@ import Sms from '../icons/sms.svg'
 
 const IndoDwoRight = () => (
     <main className='max-w-[688px]'>
-        <section className='bg-[#F7F9FB] rounded-[40px] flex py-[42px] flex-wrap'>
+        <section className='bg-[#F7F9FB] rounded-[40px] flex py-[34px] flex-wrap'>
             <div className="w-full px-[25px] py-[40px] mx-[26px] background-gradient3 rounded-[32px]">
                 <div className=" bg-white px-[14.96px] py-2.5 rounded-2xl">
                     <p className='m-0 p-0 text-black text-lg font-normal leading-snug flex items-center justify-center'>

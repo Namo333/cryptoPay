@@ -1,6 +1,6 @@
 import React from "react";
 
-import { Navbar, Hero, Slider, Container, Infomer, InfoTrio, InfotrioDown, InfotrioRight, IndoDwoRight, InfoDwoLeft } from "./components";
+import { Navbar, Hero, Slider, Container, Infomer, InfoTrio, InfotrioDown, InfotrioRight, IndoDwoRight, InfoDwoLeft, NumSection, NumSectiomSecond, NumSectiomThree } from "./components";
 
 const App = () => (
   <main>
@@ -38,6 +38,17 @@ const App = () => (
         </div>
       </div>
     </Container>
+
+    <div className="bg-[#F7F9FB]">
+      <Container>
+        <h1 className="text-neutral-800 text-[36px] leading-[61.60px] text-center">Quick start using <span className="text-[#41A4DF]">Crypto Pay</span></h1>
+        <div className="">
+          <NumSection />
+          <NumSectiomSecond />
+          <NumSectiomThree />
+        </div>
+      </Container>
+    </div>
 
   </main>
 )
