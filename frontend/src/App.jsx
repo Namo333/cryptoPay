@@ -19,8 +19,8 @@ const App = () => (
     <Container>
       <div className="flex flex-col gap-[20px]">
         <Infomer />
-        <div className="flex gap-[20px] ">
-          <div className=" w-5/12 flex flex-col gap-[20px]">
+        <div className="flex gap-[20px] max-lg:flex-wrap">
+          <div className=" w-5/12 flex max-lg:flex-wrap flex-col gap-[20px]">
             <InfoTrio />
             <InfotrioDown />
           </div>
@@ -28,7 +28,7 @@ const App = () => (
             <InfotrioRight />
           </div>
         </div>
-        <div className="flex  gap-[20px]">
+        <div className="flex max-lg:flex-wrap gap-[20px]">
           <div className="">
             <InfoDwoLeft />
           </div>

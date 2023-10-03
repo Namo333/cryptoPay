@@ -2,7 +2,7 @@ import React from 'react';
 import Sms from '../icons/sms.svg'
 
 const IndoDwoRight = () => (
-    <main className='max-w-[688px]'>
+    <main className='max-w-[688px] max-lg:max-w-none'>
         <section className='bg-[#F7F9FB] rounded-[40px] flex py-[34px] flex-wrap'>
             <div className="w-full px-[25px] py-[40px] mx-[26px] background-gradient3 rounded-[32px]">
                 <div className=" bg-white px-[14.96px] py-2.5 rounded-2xl">

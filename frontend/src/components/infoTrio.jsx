@@ -3,7 +3,7 @@ import React from 'react';
 import Tree from '../icons/tree.svg';
 
 const InfoTrio = () => (
-    <main >
+    <main className='max-w-[488px] max-lg:max-w-none'>
         <section className='bg-[#F7F9FB] rounded-[40px] flex px-[56px] py-[30px] flex-wrap gap-[55px]'>
             <div className="flex items-center justify-center m-auto pt-[40px]">
                 <div className="flex items-center justify-center gap-[5px] background-gradient px-[50px] py-[16px] rounded-[17px] text-center text-zinc-950 text-xl font-medium leading-relaxed">
