@@ -13,7 +13,7 @@ const Hero = () => (
                 </div>
                 <img class='max-md:w-[300px] max-sm:w-[200px] max-xs:w-[100px] w-[300px]' src={ Botsphoto } alt="" />
 
-                <p className='md:my-2 lg:my-4 text-center md:text-left'>Popular bots use Crypto Pay</p>
+                <p className='md:my-2 lg:my-4 text-center md:text-left text-zinc-950 text-xl font-normal leading-normal'>Popular bots use Crypto Pay</p>
             </div>
 
             <div className="flex justify-center my-4 md:my-0">

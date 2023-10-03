@@ -49,7 +49,6 @@ const App = () => (
         </div>
       </Container>
     </div>
-
   </main>
 )
 
