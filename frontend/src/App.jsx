@@ -39,7 +39,7 @@ const App = () => (
       </div>
     </Container>
 
-    <div className="bg-[#F7F9FB]">
+    <div className="bg-[#F7F9FB] mt-[144px] p-[120px]">
       <Container>
         <h1 className="text-neutral-800 text-[36px] leading-[61.60px] text-center">Quick start using <span className="text-[#41A4DF]">Crypto Pay</span></h1>
         <div className="">
