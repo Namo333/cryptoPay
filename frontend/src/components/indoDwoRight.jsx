@@ -14,13 +14,11 @@ const IndoDwoRight = () => (
 
                     <p className='m-0 p-0 text-black text-lg font-normal leading-snug'>You received <span className='text-black text-lg font-bold'>3442 TON ($5000).</span></p>
 
-                    <div className="">
-                        <p className='text-black text-lg font-normal leading-snug m-0 p-0 flex items-start justify-start gap-1'>
+                        <p className='text-black text-lg font-normal leading-snug m-0 p-0 '>
                             <img className='' src={Sms} alt="" />
                             A generous donation! Keep working <br></br>hard
+                            <img src={Sms} alt="" />
                         </p>
-                        <img src={Sms} alt="" />
-                    </div>
                     <p className=' m-0 p-0 text-right text-neutral-900 text-opacity-40 text-sm leading-tight'>21:25</p>
                 </div>
             </div>
