@@ -11,13 +11,13 @@ const Hero = () => (
                 <div className="pb-4 md:pb-8">
                     <a className="inline-block text-white px-8 py-4 bg-[#41A4DF] rounded-full" href="">Get started</a>
                 </div>
-                <img class='max-md:w-[300px] max-sm:w-[200px] max-xs:w-[100px] w-[300px]' src={ Botsphoto } alt="text" />
+                <img class='max-md:w-[300px] max-sm:w-[200px] max-xs:w-[100px] w-[300px]' src={ Botsphoto } alt="" />
 
                 <p className='md:my-2 lg:my-4 text-center md:text-left text-zinc-950 text-xl font-normal leading-normal'>Popular bots use Crypto Pay</p>
             </div>
 
             <div className="flex justify-center my-4 md:my-0">
-                <img className='max-md:max-w-[90%]' src={ Phone } alt="testtext " />
+                <img className='max-md:max-w-[90%]' src={ Phone } alt="" />
             </div>
         </div>
     </section>
